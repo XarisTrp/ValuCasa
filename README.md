@@ -2,7 +2,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/SpyrosMitsis/ValuCasa/refs/heads/main/valueCasa.png?token=GHSAT0AAAAAACZX3MI2OCDKYZ4QAWARFFAOZ63LBRA" alt="Logo" style="width: 300px; height: auto;" />
+  <img src="https://github.com/SpyrosMitsis/ValuCasa/blob/main/valueCasa.png?raw=true" alt="Logo" style="width: 300px; height: auto;" />
 </div>
 Accurately estimate home market values using real-time data.
 

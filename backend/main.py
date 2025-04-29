@@ -26,11 +26,20 @@ from schemas.request import HouseFeatures
 from preprocessing.preprocessing import pre_process
 from models.prediction import make_prediction
 from utils.logger import logger
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
     title="House Price Prediction API",
     description="API for predicting house prices based on input features.",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.post("/predict")
